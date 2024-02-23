@@ -1,0 +1,121 @@
+<html >
+<head>
+     <title>Dashboard</title>
+</head>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+.generate-exce{
+background-color:black;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.present-absent-leave{
+color:blue;
+margin-right: 1200;
+    background-color: lightgray;
+}
+
+</style>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Product</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+  <div class="button-section">
+        <button class="generate-excel">Generate Excel</button>
+ </div>
+<div class="present-absent-leave">
+            <span>Total Present: 45</span><br>
+            <span>Total Absent: 12</span><br>
+            <span>Total Leave: 0</span><br>
+        </div>
+        <select id="filter-dropdown">
+            <option value="all">All</option>
+ 
+        </select>
+       
+   
+    <table>
+        <thead>
+            <tr>
+                <th>Sr/No</th>
+                <th>USN</th>
+                <th>Student Image</th>
+                <th>Student Name</th>
+                <th>Date</th>
+                <th>Reason</th>
+                <th>Programme</th>
+                <th>Read/Punch Time</th>
+            </tr>
+        </thead>
+        <tbody>
+   
+            <tr>
+                <td>1</td>
+                <td>USN001</td>
+                <td><img src="student1.jpg" alt="Student 1"></td>
+                <td>John Doe</td>
+                <td>2024-02-23</td>
+                <td>Attendance</td>
+                <td>Bachelor's</td>
+                <td>09:00 AM</td>
+            </tr>
+            <!-- More rows can be added similarly -->
+        </tbody>
+    </table>
+</main>
+
+
+</body>
+</html>
