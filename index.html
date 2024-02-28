@@ -1,22 +1,56 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>the jquery example</title>
-<script src="C:\Users\Syed farhan sr\Desktop\net\jquery-3.6.0.js"></script>
-<script>
-    $(document).ready(function(){
-        $("button").click(function(){
-            var author = $("#home").data("author-name");
-            var year = $("#home").data("year");
-            $("#details").html("Author: " + author + "<br>Year: " + year);
-        });
-    });
-</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Favorite Heroes and Heroines</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .hero-image {
+        display: none;
+        max-width: 100%;
+        height: auto;
+    }
+</style>
 </head>
 <body>
-<p>Click the below button</p>
-<div id="home" data-author-name="farhan" data-year="2024">just an example</div>
-<br><button>Get attributes</button>
-<div id="details"></div> <!-- Div to display details -->
+
+<div class="container">
+    <h2>Hover over the names to see their images:</h2>
+    <ul>
+        <li class="hero" data-image="./img/img1.jpg">img1</li>
+        <li class="hero" data-image="./img/img2.jpg">img2</li>
+        <li class="hero" data-image="./img/img3.jpg">img3</li>
+        <!-- Add more heroes/heroines here -->
+    </ul>
+    <div id="image-container">
+        <img id="hero-image" class="hero-image" src="" alt="Hero Image">
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".hero").hover(
+            function() {
+                var imageSrc = $(this).data("image");
+                $("#hero-image").attr("src", imageSrc);
+                $(".hero-image").fadeIn();
+            },
+            function() {
+                $(".hero-image").fadeOut();
+            }
+        );
+    });
+</script>
+
 </body>
 </html>
+./
