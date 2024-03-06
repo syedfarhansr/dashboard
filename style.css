@@ -4,7 +4,6 @@ body {
     background-image: url('image\aa.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
- 
     background-size: 100% 100%;
       
     
@@ -24,9 +23,7 @@ h2 {
     text-align: center;
 
 }
-ul {
-    
-}
+
 li {
     
     margin:auto;
