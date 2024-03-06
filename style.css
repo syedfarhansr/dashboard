@@ -23,4 +23,6 @@ ul {
 }
 li {
     text-align: center;
+    margin:auto;
+    padding:initial;
 }
