@@ -1,7 +1,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
     background-color: whitesmoke;
-    font-size: green 100px;
+    
 }
 .container {
     max-width: 800px;
@@ -14,5 +14,7 @@ body {
     height: auto;
 }
 h2 {
-    font: auto blue bold;
+    color: blue;
+    text-align: center;
+    
 }
