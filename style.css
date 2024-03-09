@@ -29,3 +29,8 @@ li {
     margin:auto;
     padding:initial;
 }
+body {
+    background-image: url("image/aa.jpg");
+    background-image: no-repeat;
+    background-size: fixed;
+}
