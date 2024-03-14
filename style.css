@@ -38,3 +38,6 @@ body {
     background-image: no-repeat;
     background-size: fixed;
 }
+button {
+    font-weight: bolder;
+}
