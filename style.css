@@ -46,4 +46,5 @@ button {
 h1 {
     text-align: center;
     text-transform: capitalize;
+    font:100 , blue;
 }
