@@ -43,13 +43,8 @@ button {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
 }
-h1 {
+header {
     text-align: center;
     text-transform: capitalize;
     font:100 , rgb(255, 0, 0);
-}
-id1 {
-    text-align: center;
-    text-color: green;
-    
 }
