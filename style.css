@@ -50,7 +50,6 @@ button {
     text-transform: capitalize;
     color: green;
 }
-.image-container {
-    max-width: 100%;
-  height: auto;
+.dead {
+    border-radius: 8px;
 }
