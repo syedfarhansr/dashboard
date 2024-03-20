@@ -51,6 +51,5 @@ button {
     color: green;
 }
  .dead {
-    display: block;
-    margin-left: aut
+    border-radius: 50%;
 }
