@@ -51,5 +51,9 @@ button {
     color: green;
 }
  .dead {
-    
+    display: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-image: round;
+    padding: auto;
 }
