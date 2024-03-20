@@ -11,6 +11,7 @@ body {
 }
 .container {
     max-width: 800px;
+    image: no-repeat 100px;
     margin: 0 auto;
     padding: 20px;
 }
