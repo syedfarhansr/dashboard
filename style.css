@@ -50,8 +50,7 @@ button {
     text-transform: capitalize;
     color: green;
 }
-.hero-image {
-    border-radius: 8px;
-    vertical-align: middle;
-   
+.image-container {
+    max-width: 100%;
+  height: auto;
 }
