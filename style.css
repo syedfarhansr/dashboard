@@ -31,8 +31,8 @@ li {
     font-weight: bold;
     text-align: center;
 }
-body {
-    background-image: url("image/aa.jpg");
+.body {
+    background-image: url("image/d2.jpg");
     background-image: no-repeat;
     background-size: fixed;
 }
