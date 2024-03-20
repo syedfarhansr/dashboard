@@ -25,9 +25,9 @@ h2 {
 
 li {
     
-    margin:auto;
+    margin: 10px;
     padding:initial;
-    display: block;
+    display: relative;
     font-weight: bold;
     text-align: center;
 }
