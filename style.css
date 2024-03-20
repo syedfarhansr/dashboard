@@ -16,12 +16,7 @@ body {
     padding: 20px;
     
 }
-.hero-image {
-    display: 100;
-    max-width: 100%;
-    height: auto;
-    padding: auto;
-}
+
 h2 {
     color: blue;
     text-align: center;
@@ -53,7 +48,7 @@ button {
  .dead {
     display: block;
     width: 30px;
+    border-radius: 8px;
     
-
     
 }
