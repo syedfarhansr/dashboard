@@ -52,4 +52,5 @@ button {
 }
  .dead {
     position: top;
+    width: 100px;
 }
