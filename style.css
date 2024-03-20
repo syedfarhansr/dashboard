@@ -50,6 +50,7 @@ button {
     text-transform: capitalize;
     color: green;
 }
-.dead {
-    border-radius: 8px;
+ .dead {
+    display: block;
+    margin-left: aut
 }
