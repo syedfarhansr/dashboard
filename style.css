@@ -1,16 +1,16 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
-    background-color: whitesmoke;
-    background-image: url('image/d2.jpg');
+    background-color: #0f587d;
+    background-image: url('image/ra.jpg');
     background-repeat: no-repeat;
-    background-attachment: relative;
+    background-attachment: absolute;
     background-size: 80%;
       
     
 }
-.container {
+.container {    
     max-width: 800px;
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
     padding: 20px;
     
@@ -21,18 +21,24 @@ h2 {
     text-align: center;
 
 }
+ul {
+    text-align: center;
+}
 
 li {
     
     margin: 0 auto;
     padding:initial;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 body {
     background-image: url("image/d2.jpg");
     background-image: no-repeat;
-    background-size: fixed;
+    background-size: 100%;
+    background-position: 100%;
+    background-attachment: fixed;
+    border-image-width: auto;
 }
 .button {
     font-weight: bolder;
@@ -49,13 +55,8 @@ body {
     display: block;
     width: 30px;
     border-radius: 8px;
+    border-top-left-radius: 0%;
+    margin-top: left;
 }
-::marker {
-    align-items: center;
-}
-.hello {
-    position: absolute;
-    height: auto;
-    left: 0px;
-    width: 250px;
-}
+
+
