@@ -1,17 +1,16 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
     background-color: whitesmoke;
-    background-image: url('image\aa.jpg');
+    background-image: url('image/d2.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    bottom: left;
+    background-attachment: relative;
+    background-size: 80%;
       
     
 }
 .container {
     max-width: 800px;
-    text-align: top-right;
+    text-align: center;
     margin: 0 auto;
     padding: 20px;
     
@@ -25,13 +24,12 @@ h2 {
 
 li {
     
-    margin: 10px;
+    margin: 0 auto;
     padding:initial;
-    display: relative;
     font-weight: bold;
     text-align: center;
 }
-.body {
+body {
     background-image: url("image/d2.jpg");
     background-image: no-repeat;
     background-size: fixed;
@@ -51,6 +49,7 @@ li {
     display: block;
     width: 30px;
     border-radius: 8px;
-
-    
+}
+::marker {
+    align-items: center;
 }
